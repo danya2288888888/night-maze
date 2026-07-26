@@ -1,0 +1,48 @@
+import pygame
+
+pygame.init()
+
+SCREEN_WIDTH = 960
+SCREEN_HEIGHT = 640
+FPS = 60
+TILE_SIZE = 32
+
+TITLE = "Dark Maze"
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+DARK_GRAY = (40, 40, 40)
+LIGHT_GRAY = (90, 90, 90)
+FLOOR_COLOR = (60, 60, 70)
+WALL_COLOR = (25, 25, 30)
+DOOR_COLOR = (120, 72, 30)
+EXIT_COLOR = (240, 200, 40)
+PLAYER_COLOR = (60, 140, 240)
+RED = (200, 40, 40)
+GREEN = (60, 200, 90)
+YELLOW = (240, 210, 60)
+
+VISION_RADIUS = 160
+
+PLAYER_SPEED = 220
+PLAYER_SIZE = 20
+
+TOTAL_LEVELS = 6
+
+LEVEL_SIZES = [
+    (8, 6),
+    (10, 7),
+    (12, 8),
+    (14, 9),
+    (16, 10),
+    (18, 12),
+]
+
+FONT_SIZE_SMALL = 20
+FONT_SIZE_MEDIUM = 28
+FONT_SIZE_LARGE = 48
+
+ASSETS_DIR = "assets"
+IMAGES_DIR = ASSETS_DIR + "/images"
+SOUNDS_DIR = ASSETS_DIR + "/sounds"
+MUSIC_DIR = ASSETS_DIR + "/music"
