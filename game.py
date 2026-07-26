@@ -36,7 +36,7 @@ class Game:
         self.step_timer = 0
         self.running = True
         self.darkness = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SRCALPHA)
-        self.sound.play_music("theme.ogg")
+        self.sound.play_music("str.mp3")
 
     def start_level(self, index):
         cols, rows = LEVEL_SIZES[index - 1]

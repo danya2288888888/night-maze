@@ -42,7 +42,6 @@ FONT_SIZE_SMALL = 20
 FONT_SIZE_MEDIUM = 28
 FONT_SIZE_LARGE = 48
 
-ASSETS_DIR = "assets"
-IMAGES_DIR = ASSETS_DIR + "/images"
-SOUNDS_DIR = ASSETS_DIR + "/sounds"
-MUSIC_DIR = ASSETS_DIR + "/music"
+IMAGES_DIR = "/images"
+SOUNDS_DIR = "/sounds"
+MUSIC_DIR = "music"
