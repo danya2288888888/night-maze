@@ -24,7 +24,7 @@ class SoundManager:
 
     def _load_sounds(self):
         self.sounds["step"] = self._try_load_sound("step.wav")
-        self.sounds["door"] = self._try_load_sound("door.wav")
+        self.sounds["door"] = self._try_load_sound("door.mp3")
         self.sounds["win"] = self._try_load_sound("win.wav")
         self.sounds["exit"] = self._try_load_sound("exit.wav")
 

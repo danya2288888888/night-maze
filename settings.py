@@ -42,6 +42,6 @@ FONT_SIZE_SMALL = 20
 FONT_SIZE_MEDIUM = 28
 FONT_SIZE_LARGE = 48
 
-IMAGES_DIR = "/images"
-SOUNDS_DIR = "/sounds"
+IMAGES_DIR = "images"
+SOUNDS_DIR = "sounds"
 MUSIC_DIR = "music"
